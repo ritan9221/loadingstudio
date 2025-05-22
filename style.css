@@ -1,39 +1,39 @@
 
 body {
-  background: #111;
-  color: #f5f5f5;
-  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
-  padding: 2em;
-  text-align: center;
+  font-family: 'Courier New', monospace;
+  background-color: #1a1a1a;
+  color: #f8f8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  background: #282828;
+  border: 2px solid #888;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 0 10px #444;
 }
 h1 {
-  font-size: 2.5em;
-  letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+  color: #ffcc00;
+}
+.tagline {
+  font-style: italic;
+  margin-bottom: 1.5em;
 }
 a {
-  color: #ffd966;
+  color: #66d9ef;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
-.container {
-  max-width: 600px;
-  margin: auto;
-}
-.works {
-  margin: 2em 0;
-}
 ul {
-  list-style: none;
-  padding: 0;
-}
-li {
-  margin: 0.5em 0;
-}
-footer {
-  margin-top: 3em;
-  font-size: 0.9em;
-  color: #aaa;
+  padding-left: 1.5rem;
 }
